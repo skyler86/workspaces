@@ -8,8 +8,8 @@ import (
 	"projectcreation/createHarbor"
 )
 
-type HarborName struct {
-	HN string
+type HarborProject struct {
+	PN string
 }
 
 func myfunc(w http.ResponseWriter, r *http.Request) {
@@ -18,27 +18,27 @@ func myfunc(w http.ResponseWriter, r *http.Request) {
 	defer fmt.Fprint(w, "OK")
 	fmt.Println("method:", r.Method)
 	body, err := ioutil.ReadAll(r.Body)
-	if err != nil{
+	if err != nil {
 		fmt.Printf("read body err:%v", err)
 	} else {
 		println("json内容是:\n", string(body))
 	}
 	jsonData := []byte(string(body))
 
-	var name HarborName
-	err = json.Unmarshal(jsonData , &name)
+	var name HarborProject
+	err = json.Unmarshal(jsonData, &name)
 	if err != nil {
 		fmt.Printf("error:%v", err)
 
 	} else {
-		fmt.Printf("web端输入的项目名是:%v \n", name.HN)
+		fmt.Printf("web端输入的项目名是:%v \n", name.PN)
 	}
-	createHarbor.Logon(name.HN)
+	createHarbor.Logon(name.PN)
 }
 
 func main() {
 	server := http.Server{
-		Addr: "192.168.2.2:8080",
+		Addr:         "10.109.80.14:8080",
 		ReadTimeout:  0,
 		WriteTimeout: 0,
 	}
@@ -49,5 +49,3 @@ func main() {
 	//http.ListenAndServe("localhost:8000", nil)
 	//log.Fatal(http.ListenAndServe("localhost:8000", nil))
 }
-
-

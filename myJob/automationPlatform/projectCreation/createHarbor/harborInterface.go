@@ -8,8 +8,8 @@ import (
 )
 
 type HC struct {
-	uri string
-	userName string
+	uri        string
+	userName   string
 	userPasswd string
 }
 
@@ -18,6 +18,10 @@ func Logon(projectName string) {
 	hc.uri = "https://harborsy.lenovo.com.cn/api"
 	hc.userName = "jenkins-harbor"
 	hc.userPasswd = "jenkins-Harbor123"
+	//hc.uri = "https://192.168.31.150/api"
+	//hc.userName = "admin"
+	//hc.userPasswd = "rainbow123"
+
 	harborClient, err := apiv1.NewRESTClientForHost(hc.uri, hc.userName, hc.userPasswd)
 	if err != nil {
 		log.Println(err)
@@ -47,7 +51,7 @@ func CreateProject(projectName string, harborClient *apiv1.RESTClient) {
 	result, err := harborClient.NewProject(context.TODO(), projectName, countLimit, storageLimit)
 
 	if err != nil {
-		log.Println("创建项目错误",err.Error())
+		log.Println("创建项目错误", err.Error())
 	}
 	fmt.Println(result)
 }

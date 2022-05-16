@@ -9,6 +9,7 @@ require (
 	github.com/mitchellh/mapstructure v1.5.0 // indirect
 	github.com/mittwald/goharbor-client/v4 v4.0.0
 	github.com/rogpeppe/go-internal v1.8.0 // indirect
+	github.com/skyler86/workspaces v0.0.0-20220516011525-0fd6bb0c5f0e // indirect
 	github.com/stretchr/testify v1.7.1 // indirect
 	golang.org/x/net v0.0.0-20220425223048-2871e0cb64e4 // indirect
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
