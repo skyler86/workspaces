@@ -4,33 +4,67 @@ import (
 	"context"
 	"fmt"
 	"github.com/mittwald/goharbor-client/v4/apiv1"
+	"github.com/spf13/viper"
 	"log"
+	"strings"
 )
 
-type HC struct {
-	uri        string
+//type Configurations struct {
+//	harbor harborConfig
+//}
+type harborConfig struct {
+	url        string
 	userName   string
 	userPasswd string
 }
 
 func Logon(projectName string) {
-	var hc HC
-	hc.uri = "https://harborsy.lenovo.com.cn/api"
-	hc.userName = "jenkins-harbor"
-	hc.userPasswd = "jenkins-Harbor123"
-	//hc.uri = "https://192.168.31.150/api"
-	//hc.userName = "admin"
-	//hc.userPasswd = "rainbow123"
+	config := viper.New()
 
-	harborClient, err := apiv1.NewRESTClientForHost(hc.uri, hc.userName, hc.userPasswd)
+	////自动从环境变量读取匹配的参数
+	//config.AutomaticEnv()
+	////读取环境变量前缀,有这个前缀的环境变量才会读取连接
+	//viper.SetEnvPrefix("HARBORURL")
+	//viper.SetEnvPrefix("HARBORADDRESS")
+	//viper.SetEnvPrefix("HARBORPASSWORD")
+
+	//指定配置文件的信息
+	config.AddConfigPath("./config/") // 设置配置文件的路径
+	config.SetConfigName("app")       // 读取配置文件文件名
+	config.SetConfigType("yaml")      // 读取配置文件格式
+
+	//判断读取配置文件是否有误
+	if err := config.ReadInConfig(); err != nil {
+		if _, ok := err.(viper.ConfigFileNotFoundError); ok {
+			log.Println("找不到配置文件..")
+		} else {
+			log.Println("配置文件出错..")
+		}
+		log.Fatal(err)
+	}
+
+	var hc harborConfig
+	hc.url = config.GetString("harbor.URL")
+	hc.userName = config.GetString("harbor.USERNAME")
+	hc.userPasswd = config.GetString("harbor.PASSWORD")
+
+	//获取配置文件的值
+	fmt.Println("viper load conf: ", hc.url)
+	fmt.Println("viper load conf: ", hc.userName)
+	fmt.Println("viper load conf: ", hc.userPasswd)
+
+	harborClient, err := apiv1.NewRESTClientForHost(hc.url, hc.userName, hc.userPasswd)
 	if err != nil {
 		log.Println(err)
 	}
+
+	//将harbo仓库里项目的名字全部打印出来:
 	//value, err := harborClient.ListProjects(context.TODO(), "")
 	//for _, v := range value {
 	//	println(v.Name)
 	//}
 
+	//在命令行添加参数:
 	//var projectName string
 	//flag.StringVar(
 	//	&projectName,
@@ -48,10 +82,18 @@ func CreateProject(projectName string, harborClient *apiv1.RESTClient) {
 	var countLimit int
 	var storageLimit int
 
-	result, err := harborClient.NewProject(context.TODO(), projectName, countLimit, storageLimit)
+	result1, err := harborClient.NewProject(context.TODO(), projectName, countLimit, storageLimit)
+	result2, err := harborClient.NewProject(context.TODO(), CreateAgain(projectName), countLimit, storageLimit)
 
 	if err != nil {
-		log.Println("创建项目错误", err.Error())
+		log.Println("创建项目失败:", err.Error())
 	}
-	fmt.Println(result)
+	fmt.Println(result1)
+	fmt.Println(result2)
+}
+
+func CreateAgain(pn string) string {
+	npn := []string{"autosync", pn}
+	newProjectName := strings.Join(npn, "-")
+	return newProjectName
 }

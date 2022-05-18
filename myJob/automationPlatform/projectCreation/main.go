@@ -12,9 +12,8 @@ type HarborProject struct {
 	PN string
 }
 
-func myfunc(w http.ResponseWriter, r *http.Request) {
-	//fmt.Fprintf(w, "hi")
-	//fmt.Printf("hi")
+func myHarbor(w http.ResponseWriter, r *http.Request) {
+
 	defer fmt.Fprint(w, "OK")
 	fmt.Println("method:", r.Method)
 	body, err := ioutil.ReadAll(r.Body)
@@ -38,14 +37,10 @@ func myfunc(w http.ResponseWriter, r *http.Request) {
 
 func main() {
 	server := http.Server{
-		Addr:         "10.109.80.14:8080",
+		Addr:         ":8080",
 		ReadTimeout:  0,
 		WriteTimeout: 0,
 	}
-	http.HandleFunc("/", myfunc)
+	http.HandleFunc("/", myHarbor)
 	server.ListenAndServe()
-
-	//http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) { })
-	//http.ListenAndServe("localhost:8000", nil)
-	//log.Fatal(http.ListenAndServe("localhost:8000", nil))
 }
