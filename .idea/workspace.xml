@@ -20,10 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2dac7ed9-20b2-45d8-a4cc-87a3ee8be721" name="默认的" comment="skyler commit">
-      <change afterPath="$PROJECT_DIR$/myJob/automationPlatform/projectCreation/config/config.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myJob/automationPlatform/projectCreation/config/config.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myJob/automationPlatform/projectCreation/config/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/myJob/automationPlatform/projectCreation/config/config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myJob/automationPlatform/projectCreation/config/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/myJob/automationPlatform/projectCreation/config/config.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myJob/automationPlatform/projectCreation/createHarbor/harborInterface.go" beforeDir="false" afterPath="$PROJECT_DIR$/myJob/automationPlatform/projectCreation/createHarbor/harborInterface.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myJob/automationPlatform/projectCreation/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/myJob/automationPlatform/projectCreation/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myJob/automationPlatform/projectCreation/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/myJob/automationPlatform/projectCreation/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myJob/automationPlatform/projectCreation/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/myJob/automationPlatform/projectCreation/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,46 +79,18 @@
       <recent name="D:\WorkSpace\Lenovo-CCSO\myJob\automationPlatform" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build main.go">
-    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Lenovo-CCSO" />
-      <working_directory value="$PROJECT_DIR$/myJob/automationPlatform/projectCreation" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/myJob/automationPlatform/projectCreation/main.go" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build projectcreation" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Lenovo-CCSO" />
-      <working_directory value="$PROJECT_DIR$/myJob/automationPlatform/projectCreation" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/myJob/automationPlatform/projectCreation/main.go" />
-      <package value="projectcreation" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager">
     <configuration name="go build test.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Lenovo-CCSO" />
       <working_directory value="$PROJECT_DIR$/myJob/automationPlatform/projectCreation" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/myJob/automationPlatform/projectCreation/testProject/test.go" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build testtest.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Lenovo-CCSO" />
-      <working_directory value="$PROJECT_DIR$/myJob/automationPlatform/projectCreation" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/myJob/automationPlatform/projectCreation/testProject/testtest.go" />
+      <filePath value="$PROJECT_DIR$/myJob/automationPlatform/projectCreation/test.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go 构建.go build main.go" />
         <item itemvalue="Go 构建.go build test.go" />
-        <item itemvalue="Go 构建.go build testtest.go" />
-        <item itemvalue="Go 构建.go build projectcreation" />
       </list>
     </recent_temporary>
   </component>
@@ -147,69 +122,73 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="433" y="174" key="#Go_模块/0.0.1280.680@0.0.1280.680" timestamp="1652349480765" />
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1652363796022">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1653125796204">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1652363796022" />
-    <state width="1237" height="2" key="GridCell.Tab.0.bottom" timestamp="1653060402347">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1653125796204" />
+    <state width="1237" height="92" key="GridCell.Tab.0.bottom" timestamp="1653138271775">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="122" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1653023392091" />
     <state width="1877" height="326" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1652692973586" />
-    <state width="1237" height="2" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1653060402347" />
-    <state width="1237" height="2" key="GridCell.Tab.0.center" timestamp="1653060402347">
+    <state width="1237" height="92" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1653138271775" />
+    <state width="1237" height="92" key="GridCell.Tab.0.center" timestamp="1653138271775">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="122" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1653023392091" />
     <state width="1877" height="326" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1652692973585" />
-    <state width="1237" height="2" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1653060402347" />
-    <state width="1237" height="2" key="GridCell.Tab.0.left" timestamp="1653060402347">
+    <state width="1237" height="92" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1653138271775" />
+    <state width="1237" height="92" key="GridCell.Tab.0.left" timestamp="1653138271775">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="122" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1653023392091" />
     <state width="1877" height="326" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1652692973585" />
-    <state width="1237" height="2" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1653060402347" />
-    <state width="1237" height="2" key="GridCell.Tab.0.right" timestamp="1653060402347">
+    <state width="1237" height="92" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1653138271775" />
+    <state width="1237" height="92" key="GridCell.Tab.0.right" timestamp="1653138271775">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="122" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1653023392091" />
     <state width="1877" height="326" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1652692973586" />
-    <state width="1237" height="2" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1653060402347" />
-    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1652667412176">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1237" height="92" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1653138271775" />
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1653110935978">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1652667412176" />
-    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1652502202705" />
-    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1652667412176">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1653110935978" />
+    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1653110935978">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1652667412176" />
-    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1652502202704" />
-    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1652667412176">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1653110935978" />
+    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1653110935978">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1652667412176" />
-    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1652502202704" />
-    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1652667412176">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1653110935978" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1653110935978">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1652667412176" />
-    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1652502202704" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1653110935978" />
     <state x="2195" y="15" key="SettingsEditor" timestamp="1652667585983">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2195" y="15" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1652667585983" />
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1652349101241" />
-    <state x="368" y="147" key="Vcs.Push.Dialog.v2" timestamp="1652878022130">
+    <state x="368" y="147" key="Vcs.Push.Dialog.v2" timestamp="1653060951248">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1652681376420" />
-    <state x="368" y="147" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1652878022130" />
-    <state x="515" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1652877982238">
+    <state x="368" y="147" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1653060951248" />
+    <state x="515" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1653060927447">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="2693" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1652681207414" />
-    <state x="515" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1652877982238" />
+    <state x="515" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1653060927447" />
+    <state x="484" y="99" key="refactoring.ChangeSignatureDialog" timestamp="1653141315337">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="484" y="99" key="refactoring.ChangeSignatureDialog/0.0.1280.680@0.0.1280.680" timestamp="1653141315337" />
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1653017604861">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

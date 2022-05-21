@@ -19,25 +19,26 @@ type harborConfig struct {
 func Logon(projectName string) {
 
 	var hc harborConfig
-	hc.url = config.YamlInfo().GetString("harbor.URL")
-	hc.userName = config.YamlInfo().GetString("harbor.USERNAME")
-	hc.userPasswd = config.YamlInfo().GetString("harbor.PASSWORD")
-
-	//获取配置文件的值
-	fmt.Println("viper load conf: ", hc.url)
-	fmt.Println("viper load conf: ", hc.userName)
-	fmt.Println("viper load conf: ", hc.userPasswd)
+	//hc.url = config.YamlInfo().GetString("harbor.URL")
+	//hc.userName = config.YamlInfo().GetString("harbor.USERNAME")
+	//hc.userPasswd = config.YamlInfo().GetString("harbor.PASSWORD")
+	//
+	////获取配置文件的值
+	//fmt.Println("viper load conf: ", hc.url)
+	//fmt.Println("viper load conf: ", hc.userName)
+	//fmt.Println("viper load conf: ", hc.userPasswd)
+	hc.url, hc.userName, hc.userPasswd = config.EnVarInfo("HARBORURL", "HARBORUSERNAME", "HARBORPASSWORD")
 
 	harborClient, error := apiv1.NewRESTClientForHost(hc.url, hc.userName, hc.userPasswd)
 	if error != nil {
 		log.Println(error)
 	}
 
-	//将harbo仓库里项目的名字全部打印出来:
-	value, error := harborClient.ListProjects(context.TODO(), "")
-	for _, v := range value {
-		println(v.Name)
-	}
+	////将harbo仓库里项目的名字全部打印出来:
+	//value, error := harborClient.ListProjects(context.TODO(), "")
+	//for _, v := range value {
+	//	println(v.Name)
+	//}
 
 	CreateProject(projectName, harborClient)
 }
