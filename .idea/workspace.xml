@@ -20,13 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2dac7ed9-20b2-45d8-a4cc-87a3ee8be721" name="默认的" comment="skyler commit">
+      <change afterPath="$PROJECT_DIR$/myJob/testFun/fun1/ssh-linux.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myJob/testFun/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myJob/automationPlatform/projectCreation/config/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/myJob/automationPlatform/projectCreation/config/config.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myJob/automationPlatform/projectCreation/config/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/myJob/automationPlatform/projectCreation/config/config.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myJob/automationPlatform/projectCreation/createHarbor/harborInterface.go" beforeDir="false" afterPath="$PROJECT_DIR$/myJob/automationPlatform/projectCreation/createHarbor/harborInterface.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myJob/automationPlatform/projectCreation/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/myJob/automationPlatform/projectCreation/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myJob/automationPlatform/projectCreation/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/myJob/automationPlatform/projectCreation/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myJob/automationPlatform/projectCreation/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/myJob/automationPlatform/projectCreation/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,11 +44,15 @@
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="293jszDtDE6p6irRWDh5lwvdR3v" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="新增" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="GO_FMT" value="true" />
@@ -79,12 +79,20 @@
       <recent name="D:\WorkSpace\Lenovo-CCSO\myJob\automationPlatform" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build main.go">
+  <component name="RunManager" selected="Go 构建.go build ssh-linux.go">
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Lenovo-CCSO" />
       <working_directory value="$PROJECT_DIR$/myJob/automationPlatform/projectCreation" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/myJob/automationPlatform/projectCreation/main.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build ssh-linux.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Lenovo-CCSO" />
+      <working_directory value="$PROJECT_DIR$/myJob/testFun" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/myJob/testFun/fun1/ssh-linux.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -98,6 +106,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build ssh-linux.go" />
         <item itemvalue="Go 构建.go build main.go" />
         <item itemvalue="Go 构建.go build test.go" />
       </list>
@@ -120,6 +129,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="skyler commit" />
     <option name="LAST_COMMIT_MESSAGE" value="skyler commit" />
   </component>
@@ -184,16 +194,16 @@
     </state>
     <state x="2195" y="15" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1652667585983" />
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1652349101241" />
-    <state x="368" y="147" key="Vcs.Push.Dialog.v2" timestamp="1653144892185">
+    <state x="368" y="147" key="Vcs.Push.Dialog.v2" timestamp="1653208768731">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1652681376420" />
-    <state x="368" y="147" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1653144892185" />
-    <state x="515" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1653144846231">
+    <state x="368" y="147" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1653208768731" />
+    <state x="515" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1653213507962">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="2693" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1652681207414" />
-    <state x="515" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1653144846231" />
+    <state x="515" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1653213507962" />
     <state x="484" y="99" key="refactoring.ChangeSignatureDialog" timestamp="1653141315337">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
