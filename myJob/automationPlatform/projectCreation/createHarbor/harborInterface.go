@@ -17,17 +17,16 @@ type harborConfig struct {
 }
 
 func Logon(projectName string) {
-
 	var hc harborConfig
-	//hc.url = config.YamlInfo().GetString("harbor.URL")
-	//hc.userName = config.YamlInfo().GetString("harbor.USERNAME")
-	//hc.userPasswd = config.YamlInfo().GetString("harbor.PASSWORD")
-	//
-	////获取配置文件的值
-	//fmt.Println("viper load conf: ", hc.url)
-	//fmt.Println("viper load conf: ", hc.userName)
-	//fmt.Println("viper load conf: ", hc.userPasswd)
-	hc.url, hc.userName, hc.userPasswd = config.EnVarInfo("HARBORURL", "HARBORUSERNAME", "HARBORPASSWORD")
+	hc.url, hc.userName, hc.userPasswd = config.EnVarInfo("HARBOR_API_URL", "HARBOR_USERNAME", "HARBOR_PASSWORD")
+
+	hc.url = config.YamlInfo().GetString("harbor.URL")
+	hc.userName = config.YamlInfo().GetString("harbor.USERNAME")
+	hc.userPasswd = config.YamlInfo().GetString("harbor.PASSWORD")
+	//获取配置文件的值
+	fmt.Println("viper load conf: ", hc.url)
+	fmt.Println("viper load conf: ", hc.userName)
+	fmt.Println("viper load conf: ", hc.userPasswd)
 
 	harborClient, error := apiv1.NewRESTClientForHost(hc.url, hc.userName, hc.userPasswd)
 	if error != nil {
@@ -44,7 +43,7 @@ func Logon(projectName string) {
 }
 
 func CreateProject(projectName string, harborClient *apiv1.RESTClient) {
-	fmt.Printf("projectName=%v \n", projectName)
+	//fmt.Printf("projectName=%v \n", projectName)
 	var countLimit int
 	var storageLimit int
 

@@ -79,7 +79,15 @@
       <recent name="D:\WorkSpace\Lenovo-CCSO\myJob\automationPlatform" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go 构建.go build main.go">
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Lenovo-CCSO" />
+      <working_directory value="$PROJECT_DIR$/myJob/automationPlatform/projectCreation" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/myJob/automationPlatform/projectCreation/main.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build test.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Lenovo-CCSO" />
       <working_directory value="$PROJECT_DIR$/myJob/automationPlatform/projectCreation" />
@@ -90,6 +98,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build main.go" />
         <item itemvalue="Go 构建.go build test.go" />
       </list>
     </recent_temporary>
@@ -126,30 +135,30 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1653125796204" />
-    <state width="1237" height="92" key="GridCell.Tab.0.bottom" timestamp="1653138271775">
+    <state width="1237" height="77" key="GridCell.Tab.0.bottom" timestamp="1653208723008">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="122" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1653023392091" />
     <state width="1877" height="326" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1652692973586" />
-    <state width="1237" height="92" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1653138271775" />
-    <state width="1237" height="92" key="GridCell.Tab.0.center" timestamp="1653138271775">
+    <state width="1237" height="77" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1653208723008" />
+    <state width="1237" height="77" key="GridCell.Tab.0.center" timestamp="1653208723008">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="122" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1653023392091" />
     <state width="1877" height="326" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1652692973585" />
-    <state width="1237" height="92" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1653138271775" />
-    <state width="1237" height="92" key="GridCell.Tab.0.left" timestamp="1653138271775">
+    <state width="1237" height="77" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1653208723008" />
+    <state width="1237" height="77" key="GridCell.Tab.0.left" timestamp="1653208723008">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="122" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1653023392091" />
     <state width="1877" height="326" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1652692973585" />
-    <state width="1237" height="92" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1653138271775" />
-    <state width="1237" height="92" key="GridCell.Tab.0.right" timestamp="1653138271775">
+    <state width="1237" height="77" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1653208723008" />
+    <state width="1237" height="77" key="GridCell.Tab.0.right" timestamp="1653208723008">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="122" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1653023392091" />
     <state width="1877" height="326" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1652692973586" />
-    <state width="1237" height="92" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1653138271775" />
+    <state width="1237" height="77" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1653208723008" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1653110935978">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -175,16 +184,16 @@
     </state>
     <state x="2195" y="15" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1652667585983" />
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1652349101241" />
-    <state x="368" y="147" key="Vcs.Push.Dialog.v2" timestamp="1653060951248">
+    <state x="368" y="147" key="Vcs.Push.Dialog.v2" timestamp="1653144892185">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1652681376420" />
-    <state x="368" y="147" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1653060951248" />
-    <state x="515" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1653060927447">
+    <state x="368" y="147" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1653144892185" />
+    <state x="515" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1653144846231">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="2693" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1652681207414" />
-    <state x="515" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1653060927447" />
+    <state x="515" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1653144846231" />
     <state x="484" y="99" key="refactoring.ChangeSignatureDialog" timestamp="1653141315337">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

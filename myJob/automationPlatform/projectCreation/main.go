@@ -13,8 +13,7 @@ type HarborProject struct {
 }
 
 func myHarbor(w http.ResponseWriter, r *http.Request) {
-
-	defer fmt.Println(w, "OK")
+	//defer fmt.Println(w, "OK")
 	fmt.Println("method:", r.Method)
 	body, err := ioutil.ReadAll(r.Body)
 	if err != nil {
