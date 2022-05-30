@@ -20,15 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2dac7ed9-20b2-45d8-a4cc-87a3ee8be721" name="默认的" comment="skyler commit">
-      <change afterPath="$PROJECT_DIR$/myJob/automationPlatform/projectCreation/docs/docs.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myJob/automationPlatform/projectCreation/docs/swagger.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myJob/automationPlatform/projectCreation/docs/swagger.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myJob/automationPlatform/projectCreation/config/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/myJob/automationPlatform/projectCreation/config/config.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myJob/automationPlatform/projectCreation/createHarbor/harborInterface.go" beforeDir="false" afterPath="$PROJECT_DIR$/myJob/automationPlatform/projectCreation/createHarbor/harborInterface.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myJob/automationPlatform/projectCreation/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/myJob/automationPlatform/projectCreation/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myJob/automationPlatform/projectCreation/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/myJob/automationPlatform/projectCreation/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myJob/automationPlatform/projectCreation/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/myJob/automationPlatform/projectCreation/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,14 +188,16 @@
     </state>
     <state x="2195" y="15" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1652667585983" />
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1652349101241" />
-    <state x="368" y="147" key="Vcs.Push.Dialog.v2" timestamp="1653213594067">
+    <state x="368" y="147" key="Vcs.Push.Dialog.v2" timestamp="1653895201022">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state x="368" y="147" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1653895201022" />
     <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1652681376420" />
     <state x="368" y="147" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1653213594067" />
-    <state x="515" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1653213507962">
+    <state x="515" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1653896302307">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state x="515" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1653896302307" />
     <state x="2693" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1652681207414" />
     <state x="515" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1653213507962" />
     <state x="2646" y="151" key="refactoring.ChangeSignatureDialog" timestamp="1653875489362">

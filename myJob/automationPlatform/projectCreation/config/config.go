@@ -63,11 +63,11 @@ func YamlInfo() *viper.Viper {
 	config := viper.New()
 
 	//指定配置文件的信息
-	config.AddConfigPath("./config/") // 设置配置文件的路径
-	config.SetConfigName("config")    // 读取配置文件文件名
-	config.SetConfigType("yaml")      // 读取配置文件格式
+	config.AddConfigPath("./config/") // 添加配置文件的路径
+	config.SetConfigName("config")    // 设置配置文件的名称
+	config.SetConfigType("yaml")      // 设置配置文件的格式
 
-	//判断读取配置文件是否有误
+	//判断配置文件的信息是否有误
 	if err := config.ReadInConfig(); err != nil {
 		if _, ok := err.(viper.ConfigFileNotFoundError); ok {
 			log.Println("找不到配置文件..")
