@@ -23,10 +23,10 @@ func Logon(projectName string) {
 	hc.url = config.YamlInfo().GetString("harbor.URL")
 	hc.userName = config.YamlInfo().GetString("harbor.USERNAME")
 	hc.userPasswd = config.YamlInfo().GetString("harbor.PASSWORD")
-	//获取配置文件的值
-	fmt.Println("viper load conf: ", hc.url)
-	fmt.Println("viper load conf: ", hc.userName)
-	fmt.Println("viper load conf: ", hc.userPasswd)
+
+	fmt.Println("输出harbor的url: ", hc.url)
+	fmt.Println("输出harbor的用户名: ", hc.userName)
+	fmt.Println("输出harbor的用户密码: ", hc.userPasswd)
 
 	harborClient, error := apiv1.NewRESTClientForHost(hc.url, hc.userName, hc.userPasswd)
 	if error != nil {
