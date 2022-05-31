@@ -19,7 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2dac7ed9-20b2-45d8-a4cc-87a3ee8be721" name="默认的" comment="skyler commit" />
+    <list default="true" id="2dac7ed9-20b2-45d8-a4cc-87a3ee8be721" name="默认的" comment="skyler commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myJob/testFun/fun1/ssh-linux.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myJob/testFun/go.mod" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,15 +76,24 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WorkSpace\Lenovo-CCSO" />
       <recent name="D:\WorkSpace\Lenovo-CCSO\myJob\automationPlatform" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build main.go">
+  <component name="RunManager" selected="Go 构建.go build ssh-linux.go (1)">
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Lenovo-CCSO" />
       <working_directory value="$PROJECT_DIR$/myJob/automationPlatform/projectCreation" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/myJob/automationPlatform/projectCreation/main.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build ssh-linux.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Lenovo-CCSO" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/myFun/fun1/ssh-linux.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -95,9 +108,11 @@
     <list>
       <item itemvalue="Go 构建.go build main.go" />
       <item itemvalue="Go 构建.go build ssh-linux.go" />
+      <item itemvalue="Go 构建.go build ssh-linux.go (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build ssh-linux.go (1)" />
         <item itemvalue="Go 构建.go build main.go" />
         <item itemvalue="Go 构建.go build ssh-linux.go" />
       </list>
@@ -136,29 +151,29 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1653215096173" />
-    <state width="1237" height="2" key="GridCell.Tab.0.bottom" timestamp="1653891845300">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1877" height="239" key="GridCell.Tab.0.bottom" timestamp="1653960511708">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1653891845300" />
-    <state width="1877" height="326" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1652692973586" />
+    <state width="1237" height="2" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1653960409009" />
+    <state width="1877" height="239" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1653960511708" />
     <state width="1237" height="144" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1653817240008" />
-    <state width="1237" height="2" key="GridCell.Tab.0.center" timestamp="1653891845300">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1877" height="239" key="GridCell.Tab.0.center" timestamp="1653960511708">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1653891845300" />
-    <state width="1877" height="326" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1652692973585" />
+    <state width="1237" height="2" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1653960409009" />
+    <state width="1877" height="239" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1653960511708" />
     <state width="1237" height="144" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1653817240008" />
-    <state width="1237" height="2" key="GridCell.Tab.0.left" timestamp="1653891845299">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1877" height="239" key="GridCell.Tab.0.left" timestamp="1653960511707">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1653891845299" />
-    <state width="1877" height="326" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1652692973585" />
+    <state width="1237" height="2" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1653960409009" />
+    <state width="1877" height="239" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1653960511707" />
     <state width="1237" height="144" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1653817240008" />
-    <state width="1237" height="2" key="GridCell.Tab.0.right" timestamp="1653891845300">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1877" height="239" key="GridCell.Tab.0.right" timestamp="1653960511708">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1653891845300" />
-    <state width="1877" height="326" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1652692973586" />
+    <state width="1237" height="2" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1653960409009" />
+    <state width="1877" height="239" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1653960511708" />
     <state width="1237" height="144" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1653817240008" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1653229869913">
       <screen x="0" y="0" width="1280" height="680" />
@@ -185,16 +200,16 @@
     </state>
     <state x="2195" y="15" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1652667585983" />
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1652349101241" />
-    <state x="368" y="147" key="Vcs.Push.Dialog.v2" timestamp="1653895201022">
+    <state x="368" y="147" key="Vcs.Push.Dialog.v2" timestamp="1653896867660">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="368" y="147" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1653895201022" />
+    <state x="368" y="147" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1653896867660" />
     <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1652681376420" />
     <state x="368" y="147" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1653213594067" />
-    <state x="515" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1653896302307">
+    <state x="515" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1653896852593">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="515" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1653896302307" />
+    <state x="515" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1653896852593" />
     <state x="2693" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1652681207414" />
     <state x="515" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1653213507962" />
     <state x="2646" y="151" key="refactoring.ChangeSignatureDialog" timestamp="1653875489362">
