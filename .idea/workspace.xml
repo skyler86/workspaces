@@ -19,30 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2dac7ed9-20b2-45d8-a4cc-87a3ee8be721" name="默认的" comment="skyler commit">
-      <change afterPath="$PROJECT_DIR$/myFun/example/base/doing/ssh-linux.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myFun/example/base/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myFun/example/base/go.sum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myFun/example/projectCreation/config/config.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myFun/example/projectCreation/config/config.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myFun/example/projectCreation/createHarbor/harborInterface.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myFun/example/projectCreation/docs/docs.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myFun/example/projectCreation/docs/swagger.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myFun/example/projectCreation/docs/swagger.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myFun/example/projectCreation/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myFun/example/projectCreation/go.sum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myFun/example/projectCreation/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myJob/automationPlatform/projectCreation/config/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/myFun/automationPlatform/projectCreation/config/config.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myJob/automationPlatform/projectCreation/config/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/myFun/automationPlatform/projectCreation/config/config.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myJob/automationPlatform/projectCreation/createHarbor/harborInterface.go" beforeDir="false" afterPath="$PROJECT_DIR$/myFun/automationPlatform/projectCreation/createHarbor/harborInterface.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myJob/automationPlatform/projectCreation/docs/docs.go" beforeDir="false" afterPath="$PROJECT_DIR$/myFun/automationPlatform/projectCreation/docs/docs.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myJob/automationPlatform/projectCreation/docs/swagger.json" beforeDir="false" afterPath="$PROJECT_DIR$/myFun/automationPlatform/projectCreation/docs/swagger.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myJob/automationPlatform/projectCreation/docs/swagger.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/myFun/automationPlatform/projectCreation/docs/swagger.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myJob/automationPlatform/projectCreation/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/myFun/automationPlatform/projectCreation/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myJob/automationPlatform/projectCreation/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/myFun/automationPlatform/projectCreation/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myJob/automationPlatform/projectCreation/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/myFun/automationPlatform/projectCreation/main.go" afterDir="false" />
-    </list>
+    <list default="true" id="2dac7ed9-20b2-45d8-a4cc-87a3ee8be721" name="默认的" comment="skyler commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -212,10 +189,10 @@
     </state>
     <state x="2195" y="15" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1652667585983" />
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1652349101241" />
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1653960583778">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="368" y="147" key="Vcs.Push.Dialog.v2" timestamp="1654044401202">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="368" y="147" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1653896867660" />
+    <state x="368" y="147" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1654044401202" />
     <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1653960583778" />
     <state x="368" y="147" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1653213594067" />
     <state x="515" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1654044333602">
