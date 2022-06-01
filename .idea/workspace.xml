@@ -20,9 +20,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2dac7ed9-20b2-45d8-a4cc-87a3ee8be721" name="默认的" comment="skyler commit">
+      <change afterPath="$PROJECT_DIR$/myFun/example/base/doing/ssh-linux.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myFun/example/base/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myFun/example/base/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myFun/example/projectCreation/config/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myFun/example/projectCreation/config/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myFun/example/projectCreation/createHarbor/harborInterface.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myFun/example/projectCreation/docs/docs.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myFun/example/projectCreation/docs/swagger.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myFun/example/projectCreation/docs/swagger.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myFun/example/projectCreation/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myFun/example/projectCreation/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myFun/example/projectCreation/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myJob/testFun/fun1/ssh-linux.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myJob/testFun/go.mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myJob/automationPlatform/projectCreation/config/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/myFun/automationPlatform/projectCreation/config/config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myJob/automationPlatform/projectCreation/config/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/myFun/automationPlatform/projectCreation/config/config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myJob/automationPlatform/projectCreation/createHarbor/harborInterface.go" beforeDir="false" afterPath="$PROJECT_DIR$/myFun/automationPlatform/projectCreation/createHarbor/harborInterface.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myJob/automationPlatform/projectCreation/docs/docs.go" beforeDir="false" afterPath="$PROJECT_DIR$/myFun/automationPlatform/projectCreation/docs/docs.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myJob/automationPlatform/projectCreation/docs/swagger.json" beforeDir="false" afterPath="$PROJECT_DIR$/myFun/automationPlatform/projectCreation/docs/swagger.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myJob/automationPlatform/projectCreation/docs/swagger.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/myFun/automationPlatform/projectCreation/docs/swagger.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myJob/automationPlatform/projectCreation/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/myFun/automationPlatform/projectCreation/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myJob/automationPlatform/projectCreation/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/myFun/automationPlatform/projectCreation/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myJob/automationPlatform/projectCreation/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/myFun/automationPlatform/projectCreation/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,45 +95,37 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WorkSpace\Lenovo-CCSO\myFun\example\base\doing" />
+      <recent name="D:\WorkSpace\Lenovo-CCSO\myFun\example\base" />
       <recent name="D:\WorkSpace\Lenovo-CCSO" />
       <recent name="D:\WorkSpace\Lenovo-CCSO\myJob\automationPlatform" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build ssh-linux.go (1)">
-    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go 构建.go build ssh-linux.go">
+    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Lenovo-CCSO" />
-      <working_directory value="$PROJECT_DIR$/myJob/automationPlatform/projectCreation" />
+      <working_directory value="$PROJECT_DIR$/myFun/automationPlatform/projectCreation" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/myJob/automationPlatform/projectCreation/main.go" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build ssh-linux.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Lenovo-CCSO" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/myFun/fun1/ssh-linux.go" />
+      <filePath value="$PROJECT_DIR$/myFun/automationPlatform/projectCreation/main.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <configuration name="go build ssh-linux.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Lenovo-CCSO" />
-      <working_directory value="$PROJECT_DIR$/myJob/testFun" />
+      <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/myJob/testFun/fun1/ssh-linux.go" />
+      <filePath value="$PROJECT_DIR$/myFun/example/base/doing/ssh-linux.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go 构建.go build main.go" />
+      <item itemvalue="Go 构建.go build main.go (1)" />
       <item itemvalue="Go 构建.go build ssh-linux.go" />
-      <item itemvalue="Go 构建.go build ssh-linux.go (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go 构建.go build ssh-linux.go (1)" />
-        <item itemvalue="Go 构建.go build main.go" />
         <item itemvalue="Go 构建.go build ssh-linux.go" />
+        <item itemvalue="Go 构建.go build main.go (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -147,33 +158,34 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="433" y="174" key="#Go_模块/0.0.1280.680@0.0.1280.680" timestamp="1652349480765" />
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1653215096173">
+    <state x="2064" y="0" width="1092" height="771" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1653982445935">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2064" y="0" width="1092" height="771" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1653982445935" />
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1653215096173" />
+    <state width="1237" height="175" key="GridCell.Tab.0.bottom" timestamp="1654044299590">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1653215096173" />
-    <state width="1877" height="239" key="GridCell.Tab.0.bottom" timestamp="1653960511708">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1237" height="2" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1653960409009" />
-    <state width="1877" height="239" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1653960511708" />
+    <state width="1237" height="175" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1654044299590" />
+    <state width="1877" height="239" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1653988907879" />
     <state width="1237" height="144" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1653817240008" />
-    <state width="1877" height="239" key="GridCell.Tab.0.center" timestamp="1653960511708">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1237" height="175" key="GridCell.Tab.0.center" timestamp="1654044299589">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1653960409009" />
-    <state width="1877" height="239" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1653960511708" />
+    <state width="1237" height="175" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1654044299589" />
+    <state width="1877" height="239" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1653988907878" />
     <state width="1237" height="144" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1653817240008" />
-    <state width="1877" height="239" key="GridCell.Tab.0.left" timestamp="1653960511707">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1237" height="175" key="GridCell.Tab.0.left" timestamp="1654044299589">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1653960409009" />
-    <state width="1877" height="239" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1653960511707" />
+    <state width="1237" height="175" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1654044299589" />
+    <state width="1877" height="239" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1653988907877" />
     <state width="1237" height="144" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1653817240008" />
-    <state width="1877" height="239" key="GridCell.Tab.0.right" timestamp="1653960511708">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1237" height="175" key="GridCell.Tab.0.right" timestamp="1654044299590">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1653960409009" />
-    <state width="1877" height="239" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1653960511708" />
+    <state width="1237" height="175" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1654044299590" />
+    <state width="1877" height="239" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1653988907878" />
     <state width="1237" height="144" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1653817240008" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1653229869913">
       <screen x="0" y="0" width="1280" height="680" />
@@ -200,17 +212,17 @@
     </state>
     <state x="2195" y="15" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1652667585983" />
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1652349101241" />
-    <state x="368" y="147" key="Vcs.Push.Dialog.v2" timestamp="1653896867660">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1653960583778">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="368" y="147" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1653896867660" />
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1652681376420" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1653960583778" />
     <state x="368" y="147" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1653213594067" />
-    <state x="515" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1653896852593">
+    <state x="515" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1654044333602">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="515" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1653896852593" />
-    <state x="2693" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1652681207414" />
+    <state x="515" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1654044333602" />
+    <state x="2693" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1653960565614" />
     <state x="515" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1653213507962" />
     <state x="2646" y="151" key="refactoring.ChangeSignatureDialog" timestamp="1653875489362">
       <screen x="1920" y="0" width="1920" height="1040" />
